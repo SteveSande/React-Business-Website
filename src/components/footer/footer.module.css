@@ -1,0 +1,17 @@
+.title {
+    padding: 10px;
+    background-color: white;
+    color: rgb(69, 166, 199);
+}
+
+.tileList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tile {
+    display: inline;
+}
