@@ -6,9 +6,8 @@
 
 .tileList {
     display: flex;
-    align-items: stretch;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tile {
