@@ -1,5 +1,5 @@
 .title {
-    padding: 30px;
+    padding: 10px;
     background-color: white;
     color: rgb(112, 189, 214);
 }
@@ -7,7 +7,9 @@
 .tileList {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .tile {
