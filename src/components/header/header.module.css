@@ -2,4 +2,15 @@
     padding: 30px;
     background-color: white;
     color: rgb(112, 189, 214);
-  }
+}
+
+.tileList {
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.tile {
+    display: inline;
+}
