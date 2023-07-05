@@ -8,7 +8,12 @@ function Footer() {
                 <img src='IntEcoLogo.svg' />
             </li>
             <li className={FooterCSS.tile}>
-                <h1>Interior Ecology Aquarium Services</h1>
+                <h3>Steve Sande</h3>
+                <ul>
+                  <li>Software Developer</li>
+                  <li>Ecologist</li>
+                  <li>Expert in Aquaria</li>
+                </ul>
             </li>
         </ul>
       </footer>
