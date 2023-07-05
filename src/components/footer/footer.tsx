@@ -12,8 +12,11 @@ function Footer() {
                 <ul>
                   <li>Software Developer</li>
                   <li>Ecologist</li>
-                  <li>Expert in Aquaria</li>
+                  <li>Aquarist</li>
                 </ul>
+                <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
+                  <p>LinkedIn</p>
+                </a>
             </li>
         </ul>
       </footer>
