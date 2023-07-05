@@ -15,7 +15,10 @@ function Footer() {
                   <li>Aquarist</li>
                 </ul>
                 <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
-                  <p>LinkedIn</p>
+                  <img className={FooterCSS.logo} src='LinkedInLogo.svg' />
+                </a>
+                <a target="_blank" href='https://www.instagram.com/interiorecology/'>
+                  <img className={FooterCSS.logo} src='InstaLogo.png' />
                 </a>
             </li>
         </ul>
