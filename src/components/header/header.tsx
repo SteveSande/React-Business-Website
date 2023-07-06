@@ -5,7 +5,7 @@ function Header() {
       <header className={HeaderCSS.title}>
         <ul className={HeaderCSS.tileList}>
             <li className={HeaderCSS.tile}>
-                <img src='IntEcoLogo.svg' />
+                <img className={HeaderCSS.logo} src='IntEcoLogo.png' />
             </li>
             <li className={HeaderCSS.tile}>
                 <h1>Interior Ecology Aquarium Services</h1>

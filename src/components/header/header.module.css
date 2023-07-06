@@ -14,3 +14,9 @@
 .tile {
     display: inline;
 }
+
+.logo {
+    height: 200px;
+    width: auto;
+    padding: 0px 30px;
+}

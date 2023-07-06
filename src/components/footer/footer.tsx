@@ -5,7 +5,7 @@ function Footer() {
       <footer className={FooterCSS.title}>
         <ul className={FooterCSS.tileList}>
             <li className={FooterCSS.tile}>
-                <img src='IntEcoLogo.svg' />
+                <img className={FooterCSS.logo} src='IntEcoLogo.png' />
             </li>
             <li className={FooterCSS.tile}>
                 <h3>Steve Sande</h3>
@@ -13,12 +13,16 @@ function Footer() {
                   <li>Software Developer</li>
                   <li>Ecologist</li>
                   <li>Aquarist</li>
-                </ul>
-                <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
-                  <img className={FooterCSS.logo} src='LinkedInLogo.svg' />
+                </ul>            
+            </li>
+            <li className={FooterCSS.tile}>
+              <h3>Contact me on social media.</h3>
+              <br></br>
+              <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
+                  <img className={FooterCSS.socialIcon} src='LinkedInLogo.svg' />
                 </a>
                 <a target="_blank" href='https://www.instagram.com/interiorecology/'>
-                  <img className={FooterCSS.logo} src='InstaLogo.png' />
+                  <img className={FooterCSS.socialIcon} src='InstaLogo.png' />
                 </a>
             </li>
         </ul>

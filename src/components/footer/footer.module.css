@@ -13,10 +13,20 @@
 
 .tile {
     display: inline;
+    padding: 0 30px;
 }
 
-.logo {
+.socialIcon {
     width: 30px;
     height: 30px;
     padding: 10px 5px;
+}
+
+h3 {
+    display: inline;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
 }
