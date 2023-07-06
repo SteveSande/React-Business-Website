@@ -1,5 +1,3 @@
-import AboutCSS from './about.module.css'
-
 function About() {
     return (
         <>
