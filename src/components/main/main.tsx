@@ -1,5 +1,4 @@
 import InfoBlock from './infoblock/infoblock'
-import MainCSS from './main.module.css'
 
 function Main() {
 	return (  
