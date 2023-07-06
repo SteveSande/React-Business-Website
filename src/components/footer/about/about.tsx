@@ -2,15 +2,15 @@ import AboutCSS from './about.module.css'
 
 function About() {
     return (
-      <>
-                <h3>Steve Sande</h3>
-                <ul>
-                  <li>Software Developer</li>
-                  <li>Ecologist</li>
-                  <li>Aquarist</li>
-                </ul>            
-                </>    
+        <>
+            <h3>Steve Sande</h3>
+            <ul>
+                <li>Software Developer</li>
+                <li>Ecologist</li>
+                <li>Aquarist</li>
+            </ul>            
+        </>    
     )
-  }
+}
   
-  export default About
+export default About
