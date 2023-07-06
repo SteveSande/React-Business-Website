@@ -17,13 +17,14 @@ function Footer() {
             </li>
             <li className={FooterCSS.tile}>
               <h3>Contact me on social media.</h3>
-              <br></br>
-              <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
+              <div>
+                <a target="_blank" href='https://www.linkedin.com/in/steven-sande-a4264752/'>
                   <img className={FooterCSS.socialIcon} src='LinkedInLogo.svg' />
                 </a>
                 <a target="_blank" href='https://www.instagram.com/interiorecology/'>
                   <img className={FooterCSS.socialIcon} src='InstaLogo.png' />
                 </a>
+              </div>
             </li>
         </ul>
       </footer>

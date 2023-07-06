@@ -8,25 +8,30 @@
     list-style: none;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .tile {
-    display: inline;
-    padding: 0 30px;
+    display: flex;
+    padding: 5px 30px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .socialIcon {
     width: 30px;
     height: 30px;
-    padding: 10px 5px;
+    padding: 5px;
 }
 
 h3 {
-    display: inline;
+    padding: 0px;
+    margin: 5px;
 }
 
 .logo {
     height: 150px;
     width: auto;
+    margin: 5px;
+    padding: 5px;
 }
