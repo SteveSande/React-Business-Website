@@ -11,8 +11,7 @@ function InfoBlock(props:info) {
         <div className={InfoBlockCSS.infoBlock}>
             <a target="_blank" href={props.link}>
                 <img className={InfoBlockCSS.background} src={props.background} />
-			</a>
-            
+			</a>  
             <h1 className={InfoBlockCSS.text}>{props.text}</h1>
         </div>
     )
