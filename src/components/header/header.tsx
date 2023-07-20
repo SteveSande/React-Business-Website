@@ -9,6 +9,7 @@ function Header() {
             </li>
             <li className={HeaderCSS.tile}>
                 <h1>Interior Ecology Aquarium Services</h1>
+                <h2>Guelph, Kitchener, Waterloo, Cambridge (Ontario)</h2>
             </li>
         </ul>
       </header>
