@@ -11,3 +11,4 @@ As such the scope was limited to a single page. The business that the website is
         <li>Open the link provided in the terminal output.</li>
     </ol>
 </p>
+<p>Also accessible using <a href='https://interior-ecology-react.netlify.app/'>Netlify</a>.</p>
