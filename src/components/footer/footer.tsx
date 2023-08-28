@@ -8,7 +8,7 @@ function Footer() {
       <img
         id="footer-logo"
         className={FooterCSS.logo}
-        src="IntEcoLogo.webp"
+        src="IntEcoLogo.png"
         alt="the outline of a fish surrounded by bubble, all in cerulean blue"
       />
       <About />

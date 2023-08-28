@@ -27,7 +27,7 @@ function Contact() {
           <img
             id="instagram-logo"
             className={ContactCSS.socialIcon}
-            src="InstaLogo.png"
+            src="InstaLogo.webp"
             alt="the Instagram logo"
           />
         </a>
