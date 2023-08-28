@@ -15,5 +15,6 @@
 
 .logo {
     height: 200px;
+    width: auto;
     margin: 10px;
 }
