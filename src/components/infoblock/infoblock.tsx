@@ -11,7 +11,11 @@ interface info {
 function InfoBlock(props: info) {
   return (
     <div id={props.text} className={InfoBlockCSS.infoBlock}>
-      <a id="image-link" target="_blank" href={props.link}>
+      <a
+        target="_blank"
+        href={props.link}
+        aria-label="See the source for this image."
+      >
         <picture id="infoblock-bg">
           <source
             id="mobile-bg"
@@ -26,9 +30,9 @@ function InfoBlock(props: info) {
           />
         </picture>
       </a>
-      <h1 id="caption" className={InfoBlockCSS.text}>
+      <h2 id="caption" className={InfoBlockCSS.text}>
         {props.text}
-      </h1>
+      </h2>
     </div>
   );
 }
