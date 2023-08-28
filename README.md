@@ -1,4 +1,4 @@
-# React-Business-Website #
+# My Business Website #
 
 The goal of this project was to be introduced to React web development with Typescript and CSS modules.
 Therefore the scope was limited to a single page. 
