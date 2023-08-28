@@ -9,7 +9,7 @@ function Footer() {
         id="footer-logo"
         className={FooterCSS.logo}
         src="IntEcoLogo.png"
-        alt="the outline of a fish surrounded by bubble, all in cerulean blue"
+        alt="the outline of a fish surrounded by bubbles, all in cerulean blue"
       />
       <About />
       <Contact />
