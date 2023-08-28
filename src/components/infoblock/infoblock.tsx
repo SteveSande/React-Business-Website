@@ -10,7 +10,7 @@ interface info {
 
 function InfoBlock(props: info) {
   return (
-    <div className={InfoBlockCSS.infoBlock}>
+    <div id={props.text} className={InfoBlockCSS.infoBlock}>
       <a target="_blank" href={props.link}>
         <picture>
           <source srcSet={props.backgroundSmall} media="(max-width:700px)" />

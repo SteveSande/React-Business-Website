@@ -1,13 +1,14 @@
 .infoBlock {
     position: relative;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 .background {
     display: block;
+    height: 300px;
     width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 .text {
@@ -17,7 +18,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 3.2vw;
+    font-size: 40px;
 }
 
 @media screen and (max-width: 700px) {

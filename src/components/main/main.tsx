@@ -1,4 +1,4 @@
-import InfoBlock from "./infoblock/infoblock";
+import InfoBlock from "../infoblock/infoblock";
 
 function Main() {
   return (
