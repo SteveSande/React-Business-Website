@@ -1,13 +1,9 @@
 .contact {
     margin: 15px;
-}
-
-@media screen and (max-width: 700px) {
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 200px;
 }
 
 .socialIcon {
@@ -19,4 +15,10 @@
 h3 {
     padding: 0px;
     margin: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
 }
