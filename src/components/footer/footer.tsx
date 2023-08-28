@@ -4,8 +4,13 @@ import About from "../about/about";
 
 function Footer() {
   return (
-    <footer className={FooterCSS.footer}>
-      <img className={FooterCSS.logo} src="IntEcoLogo.png" />
+    <footer id="footer" className={FooterCSS.footer}>
+      <img
+        id="footer-logo"
+        className={FooterCSS.logo}
+        src="IntEcoLogo.png"
+        alt="the outline of a fish surrounded by bubble, all in cerulean blue"
+      />
       <About />
       <Contact />
     </footer>
