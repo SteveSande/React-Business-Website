@@ -3,9 +3,7 @@ import ContactCSS from "./contact.module.css";
 function Contact() {
   return (
     <div id="contact" className={ContactCSS.contact}>
-      <h3 id="contact-me">
-        Contact me <br /> on social media.
-      </h3>
+      <h3 id="contact-me">Contact me on social media.</h3>
       <div id="social-links">
         <a
           id="linkedin-link"
