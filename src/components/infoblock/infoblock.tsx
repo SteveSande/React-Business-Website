@@ -3,6 +3,7 @@ import InfoBlockCSS from "./infoblock.module.css";
 interface info {
   background: string;
   backgroundSmall: string;
+  backgroundTiny: string;
   text: string;
   link: string;
   alt: string;
@@ -17,16 +18,12 @@ function InfoBlock(props: info) {
         aria-label="See the source for this image."
       >
         <picture id="infoblock-bg">
-          <source
-            id="mobile-bg"
-            srcSet={props.backgroundSmall}
-            media="(max-width:700px)"
-          />
+          <source srcSet={props.backgroundSmall} media="(max-width:700px)" />
           <img
-            id="desktop-bg"
             className={InfoBlockCSS.background}
             src={props.background}
             alt={props.alt}
+            loading="lazy"
           />
         </picture>
       </a>
