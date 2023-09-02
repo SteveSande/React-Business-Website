@@ -10,8 +10,18 @@ interface info {
 }
 
 function InfoBlock(props: info) {
+  const loadingImage = {
+    backgroundImage: `url(${props.backgroundTiny})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+  };
+
   return (
-    <div id={props.text} className={InfoBlockCSS.infoBlock}>
+    <div
+      id={props.text}
+      className={InfoBlockCSS.infoBlock}
+      style={loadingImage}
+    >
       <a
         target="_blank"
         href={props.link}
