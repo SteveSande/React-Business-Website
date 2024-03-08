@@ -8,7 +8,7 @@ function Contact() {
         <a
           id="linkedin-link"
           target="_blank"
-          href="https://www.linkedin.com/in/steven-sande-a4264752/"
+          href="https://www.linkedin.com/in/steve-sande/"
           aria-label="See the owner-operator's LinkedIn profile."
         >
           <img
